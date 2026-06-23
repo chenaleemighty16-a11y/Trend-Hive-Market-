@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trend Hive Market</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; margin: 0; padding: 0; }
-        header { background-color: #333; color: white; padding: 20px 0; }
-        .hero { font-size: 2em; margin: 40px 0; }
-        .content { margin: 20px; }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Trend Hive Market</h1>
+    <header id="hero-placeholder">
+        <div class="video-placeholder">Video Header Coming Soon</div>
     </header>
-    <div class="hero">
-        <p>Welcome to the ultimate trend destination!</p>
-    </div>
-    <div class="content">
-        <p>Get ready for the hottest trends and exclusive drops.</p>
-    </div>
+
+    <nav class="filter-nav">
+        <button id="filter-btn" class="pop-btn">Filter Products ▾</button>
+        <div id="filter-dropdown" class="dropdown-content">
+            <a href="#">Hoodies</a>
+            <a href="#">Totes</a>
+            <a href="#">Jewelry</a>
+        </div>
+    </nav>
+
+    <main id="product-grid"></main>
+
+    <footer>
+        <div class="footer-content">
+            <img src="images/group-photo.jpg" alt="Quillin Friends">
+            <p>Thank you for stopping by! Remember: Life's too short for boring stuff.</p>
+            <div class="socials">
+                <a href="#">Instagram</a> | <a href="#">TikTok</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
